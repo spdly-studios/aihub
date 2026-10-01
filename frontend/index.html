@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SPDLY AI — Personal AI Workstation & Multi-Provider Gateway">
+  <meta name="theme-color" content="#0D0D0D">
+  <title>SPDLY AI</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <div id="app" class="app">
+    <aside id="sidebar" class="app-sidebar sidebar">
+      <!-- Sidebar injected by JS -->
+    </aside>
+    <main id="main" class="app-main">
+      <header id="app-header" class="app-header">
+        <!-- Header injected by JS -->
+      </header>
+      <div id="content" class="app-content">
+        <!-- Page content injected by router -->
+      </div>
+    </main>
+  </div>
+  
+  <!-- Command Palette -->
+  <div id="command-palette" class="modal-overlay" style="display:none" role="dialog" aria-label="Command Palette">
+    <!-- Injected by JS -->
+  </div>
+  
+  <!-- Notification Container -->
+  <div id="notifications" class="notification-container" aria-live="polite"></div>
+  
+  <script type="module" src="/main.ts"></script>
+</body>
+</html>

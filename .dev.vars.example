@@ -1,0 +1,7 @@
+SPDLY_CAPI_KEY=your-spdly-api-key-here
+NVIDIA_API_KEY=your-nvidia-api-key-here
+CEREBRAS_API_KEY=your-cerebras-api-key-here
+GOOGLE_API_KEY=your-google-api-key-here
+OPENROUTER_API_KEY=your-openrouter-api-key-here
+NARAROUTER_API_KEY=your-nararouter-api-key-here
+HUGGINGFACE_API_KEY=your-huggingface-api-key-here
