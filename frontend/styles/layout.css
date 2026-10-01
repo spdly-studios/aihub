@@ -12,7 +12,9 @@
 
 .app-sidebar {
   background-color: var(--sidebar-bg);
-  border-right: 1px solid var(--border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-right: 1px solid var(--border-subtle);
   display: flex;
   flex-direction: column;
   z-index: var(--z-sticky);
@@ -23,6 +25,7 @@
   flex-direction: column;
   height: 100vh;
   overflow: hidden;
+  background-color: var(--bg-primary);
 }
 
 .app-header {
@@ -31,8 +34,11 @@
   display: flex;
   align-items: center;
   border-bottom: 1px solid var(--border-subtle);
-  background-color: var(--bg-primary);
+  background-color: var(--header-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   flex-shrink: 0;
+  z-index: 10;
 }
 
 .app-content {
