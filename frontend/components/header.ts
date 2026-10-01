@@ -4,7 +4,7 @@ import { getState, setState, subscribe } from '../state';
 import { openCommandPalette } from './command-palette';
 
 export function initHeader(): void {
-  const header = document.getElementById('header');
+  const header = document.getElementById('app-header');
   if (!header) return;
   header.innerHTML = buildHeader();
   setupHeaderEvents();
